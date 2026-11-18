@@ -1,0 +1,60 @@
+NOME: Gabriela Barbosa Tavares Arantes e Silva
+NMEC: 141191
+
+@gabrielabtas26 ➜ /workspaces/LABINFO-03-26-27 (main) $ pwd
+/workspaces/LABINFO-03-26-27
+
+#Tarefa1:
+
+printf "Gabriela Barbosa Tavares Arantes e Silva\n141191\n" > identificacao.txt
+cat identificacao.txt
+git add identificacao.txt
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+git push
+
+#Tarefa2:
+
+mkdir A141191
+cd A141191
+pwd
+/workspaces/LABINFO-03-26-27/A141191
+echo "Teste de LI 2026/2027" > README.md
+cat README.md
+cd ..
+pwd
+/workspaces/LABINFO-03-26-27
+history > cmdstask2.txt
+git add A141191/README.md cmdstask2.txt
+git commit -m "2.ª tarefa concluída"
+git push origin main
+
+#Tarefa3:
+
+cd Documents
+git clone  https://github.com/gabrielabtas26/LABINFO-03-26-27.git
+cd LABINFO-03-26-27
+code .
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push origin main
+
+#Tarefa6:
+
+--- Comandos do computador ---
+1  pwd
+    2  A-141191.txt
+    3  pwd
+    4  cat identificacao.txt
+    5  mkdir A141191
+    6  cd A141191
+    7  pwd
+    8  echo "Teste de LI 2026/2027" > README.md
+    9  cat README.md
+   10  cd ..
+   11  pwd
+   12  history > cmdstask2.txt
+   13  git add A141191/README.md cmdstask2.txt
+   14  git commit -m "2.ª tarefa concluída"
+   15  git push origin main
+   16  git pull origin main
+   17  history > meusComandosCodespace.txt

@@ -1,0 +1,17 @@
+    1  pwd
+    2  A-141191.txt
+    3  pwd
+    4  cat identificacao.txt
+    5  mkdir A141191
+    6  cd A141191
+    7  pwd
+    8  echo "Teste de LI 2026/2027" > README.md
+    9  cat README.md
+   10  cd ..
+   11  pwd
+   12  history > cmdstask2.txt
+   13  git add A141191/README.md cmdstask2.txt
+   14  git commit -m "2.ª tarefa concluída"
+   15  git push origin main
+   16  git pull origin main
+   17  history > meusComandosCodespace.txt
